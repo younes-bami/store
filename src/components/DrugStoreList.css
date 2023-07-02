@@ -1,0 +1,84 @@
+.drugstore-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.drugstore-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    width: calc(33% - 20px);
+    display: flex;
+}
+
+.drugstore-image {
+    width: 100px;
+    height: 100px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    object-fit: cover;
+}
+
+.drugstore-info {
+    padding: 10px;
+}
+
+.drugstore-name {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.drugstore-address {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.drugstore-status {
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.drugstore-status.open {
+    background-color: #4caf50;
+    color: #ffffff;
+}
+
+.drugstore-status.closed {
+    background-color: #f44336;
+    color: #ffffff;
+}
+
+.drugstore-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.drugstore-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    width: calc(33% - 20px);
+    display: flex;
+}
+
+/* Media query for mobile devices */
+@media screen and (max-width: 768px) {
+    .drugstore-card {
+        width: calc(100% - 20px); /* Set the width to 100% on mobile devices */
+    }
+}
+
+
+
+
+
+
+
